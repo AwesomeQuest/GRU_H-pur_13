@@ -1,3 +1,7 @@
+#wrapper{
+	display: flex;
+	flex-direction: column;
+}
 h1 {
 	color: Pink;
 }
@@ -6,4 +10,8 @@ h1 {
 }
 #banner{
 	text-align: center;
+}
+#article{
+	padding: 2em;
+
 }
