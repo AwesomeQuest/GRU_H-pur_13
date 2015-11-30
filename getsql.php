@@ -1,7 +1,7 @@
 <?php
 	try {
-		$handler = new PDO('mysql:host=localhost;dbname=gru_h13_ppu', 'root', '');
-		$handler-> setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+		$pdo = new PDO('mysql:host=tsuts.tskoli.is;dbname=1612982129_gru', '1612982129', 'mypassword');
+		$pdo-> setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 	} catch(PDOExeption $e) {
 		echo $e->getMessage;
 		die();
